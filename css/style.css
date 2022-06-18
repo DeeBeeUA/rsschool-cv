@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #FFFFE0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* HEADER */
+
+
+header {
+    background:#20B2AA;
+    height: 50px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: end;
+}
+
+.menu_list_item {
+    display: block;
+    margin-top: 15px;
+    padding: 0 20px;
+}
+
+.menu_list_item_link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #2F4F4F;
+    font-weight: 700;
+}
+
+.menu_list_item_link:hover {
+    color: 	#800080;
+}
+
+/* foto and name */
+
+.person {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.person_descr {
+    margin-top: 70px;
+}
+
+.person_descr_name {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.person_descr_text {
+    font-weight: 300;
+}
+
+.liner {
+    margin: 0 auto;
+    margin-top: 5px;
+    border: 1px solid black;
+    width: 75%;
+}
+
+.person_descr_text {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.liner_sub {
+    margin-top: 25px;
+    border-bottom: 5px solid #F5DEB3;
+}
+
+/* ..................... */
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about_box {
+    margin-top: 15px;
+    width: 350px;
+    height: px;
+}
+
+.about_box_text {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.about_box_text_list {
+    list-style-type: none;
+}
+
+.about_box_linear {
+    margin-top: 20px;
+    border-bottom: 1px solid #F5DEB3;
+}
+
+/* footer */
+footer {
+    background: #20B2AA;
+    height: 80px;
+}
+
+.footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_date {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.footer_date_name {
+    margin-top: 32px;
+}
+
+.footer_date_copy {
+    margin-top: 34px;
+}
+
+.footer_logo_link {
+    display: block;
+}
+
+.footer_logo_link_img {
+    display: block;
+    margin-top: 8px;
+    width: 150px;
+}
