@@ -36,8 +36,8 @@ html {
 }
 
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 header {
@@ -120,4 +120,30 @@ main {
   font-family: Roboto;
   font-weight: 300;
   font-size: 18px;
+}
+
+/* section skills */
+
+.skills {
+  margin-top: 45px;
+}
+
+.skills h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.skills_list {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.skills_list_item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
 }
