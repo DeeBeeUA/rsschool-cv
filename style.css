@@ -159,6 +159,44 @@ main {
   text-align: center;
 }
 
+/* language */
+
+.language {
+  padding-top: 45px;
+}
+
+.language_sup {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.language_list {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.language_list ul li {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.contacts {
+  padding: 15px 0;
+}
+
+.contacts h2 {
+  text-align: center;
+}
+
+.contacts_social {
+  text-align: center;
+  padding-top: 5px;
+}
+
 footer {
   padding: 15px;
   background: #68768c;
