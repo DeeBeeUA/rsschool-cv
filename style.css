@@ -147,3 +147,48 @@ main {
   font-weight: 500;
   font-size: 24px;
 }
+
+footer {
+  padding: 15px;
+  background: #68768c;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box_mygit {
+display: flex;
+}
+
+.box_mygit img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.box_mygit_text {
+  padding: 10px 0 0 10px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.box_mygit_text a {
+  text-decoration: none;
+}
+
+.box_date {
+  padding-top: 8px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+.box_school {
+  padding-top: 5px;
+}
+
+.box_school img{
+  width: 100px;
+}
