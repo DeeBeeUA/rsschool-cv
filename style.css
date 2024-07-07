@@ -69,7 +69,7 @@ header nav .list_item_link:hover{
 }
 
 main {
-  padding: 15px 0;
+  padding-top: 15px;
   background-color: #FFFDD0;
 }
 
@@ -104,4 +104,20 @@ main {
 
 /* section about */
 
+.about {
+  padding-top: 15px;
+}
 
+.about_h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.about_descr {
+  padding-top: 15px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+}
