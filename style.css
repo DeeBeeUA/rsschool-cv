@@ -1,0 +1,244 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    .roboto-light {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .roboto-regular {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .roboto-medium {
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .roboto-bold {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .roboto-black {
+        font-family: "Roboto", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+header {
+    background: #68768c;
+}
+
+header nav .list {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+
+}
+
+header nav .list_item_link {
+    color: #000;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+header nav .list_item_link:hover{
+    color: #ffffffe5;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+main {
+  padding-top: 15px;
+  background-color: #FFFDD0;
+}
+
+
+.section_wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section_wrap_foto_img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.section_wrap_name {
+  padding-top: 100px;
+}
+
+.section_wrap_name_sup {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.section_wrap_name_sub {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+
+/* section about */
+
+.about {
+  padding-top: 15px;
+}
+
+.about_h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.about_descr {
+  padding-top: 15px;
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+/* section skills */
+
+.skills {
+  margin-top: 45px;
+}
+
+.skills h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.skills_list {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.skills_list_item {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.code {
+  padding-top: 45px;
+}
+
+.code_sup h2 {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+/* language */
+
+.language {
+  padding-top: 45px;
+}
+
+.language_sup {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+
+.language_list {
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.language_list ul li {
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.contacts {
+  padding: 15px 0;
+}
+
+.contacts h2 {
+  text-align: center;
+}
+
+.contacts_social {
+  text-align: center;
+  padding-top: 5px;
+}
+
+footer {
+  padding: 15px;
+  background: #68768c;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box_mygit {
+display: flex;
+}
+
+.box_mygit img {
+  display: block;
+  width: 50px;
+  height: 50px;
+}
+
+.box_mygit_text {
+  padding: 10px 0 0 10px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.box_mygit_text a {
+  text-decoration: none;
+  color:#000
+}
+
+.box_date {
+  padding-top: 8px;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 24px;
+}
+.box_school {
+  padding-top: 5px;
+}
+
+.box_school img{
+  width: 100px;
+}
