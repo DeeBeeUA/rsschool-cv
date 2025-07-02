@@ -34,5 +34,4 @@ alert( result );
   - learn.javascript
 
 ## English
----
 A1 - A2
