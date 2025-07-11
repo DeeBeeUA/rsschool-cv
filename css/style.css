@@ -131,6 +131,7 @@ img {
 /* About Section */
 
 .about {
+    padding-bottom: 10px;
     background-color: #FFF5EE;
 }
 
@@ -156,4 +157,44 @@ img {
 
 .about__descr {
     margin-top: 10px;
+}
+
+/* footer */
+
+.footer {
+    min-height: 47.13px;
+    background-color: #62AADE;
+    padding: 5px 0;
+}
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer__link-github {
+    position: relative;
+}
+
+.footer__link-github::after {
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-image: url('../icons/free-icon-unlink-149919.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.footer__logo-img {
+    width: 100px;
+    height: 37px;
 }
