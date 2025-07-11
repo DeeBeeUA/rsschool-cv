@@ -138,7 +138,21 @@ img {
 .about__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px
+    gap: 30px 10px;
+}
+
+.about__container {
+    position: relative;
+}
+
+.about__wrapper:nth-child(-n+6) ::after {
+    position: absolute;
+    bottom: -15px;
+    display: block;
+    content: '';
+    width: 85%;
+    height: 2px;
+    background-color: #62AADE;
 }
 
 .title-h2 {
@@ -180,6 +194,11 @@ img {
 
 .footer__link-github {
     position: relative;
+    transition: color 0.3s ease;
+}
+
+.footer__link-github:hover {
+    color: red;
 }
 
 .footer__link-github::after {
